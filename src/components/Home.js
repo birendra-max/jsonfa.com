@@ -99,22 +99,6 @@ export default function Home() {
         }
     }
 
-    // function lineByline() {
-    //     if (text === '') {
-    //         setCopyedText("block")
-    //         setAlertValue('Submit your JSON text to convert line-by-line. !')
-    //         setAlertType('alert alert-danger')
-    //         disableAlert();
-    //     }
-    //     else {
-    //         setText(text.replace('},{','\n'));
-    //         setCopyedText("block")
-    //         setAlertValue('The JSON text has been removed quotes. !')
-    //         setAlertType('alert alert-success')
-    //         disableAlert();W
-    //     }
-    // }
-
 
     function lineByline() {
 
