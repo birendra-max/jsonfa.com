@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+#buttonCont {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  #buttonCont {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 2fr));
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 20px;
+  }
+}
